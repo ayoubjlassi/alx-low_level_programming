@@ -5,7 +5,7 @@
  *
  * Description: print all aplhabet letters except q and e
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
