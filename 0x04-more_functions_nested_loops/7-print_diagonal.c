@@ -7,7 +7,7 @@
  * should be printed
  */
 
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int pstn, space;
 
