@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_square - print a square using the chaeacter #
  *
- * Description:  prints _putchar, followed by a new line.
+ * @size: is the size of the square
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
  */
 
-int main(void)
+void print_square(int size)
 {
 	int row, colum;
 
