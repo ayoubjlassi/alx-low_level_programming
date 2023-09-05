@@ -62,6 +62,21 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 }
 
 /**
+ * check100 - checks that file descriptors were closed properly
+ * @check: checks if true or false
+ * @fd: file descriptor
+ *
+ * Return: void
+ */
+void check100(int check, int fd)
+{
+	if (check == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
+		exit(100);
+	}
+}
+/**
  * main - opies the content of a file to another file.
  * @argc: number of arguments passed
  * @argv: array of pointers to the arguments
